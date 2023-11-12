@@ -95,7 +95,7 @@ class OplaColorMenu {
               if (k == i) continue;
               _carrier->leds.setPixelColor(k, 0, 0, 0);              
             }
-            _carrier->leds.setBrightness(128);
+            _carrier->leds.setBrightness(64);
             _carrier->leds.show();
 
             // Run the handler
