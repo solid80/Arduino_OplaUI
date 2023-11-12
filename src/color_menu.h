@@ -89,7 +89,6 @@ class OplaColorMenu {
         // A button was touched. Now find its menu item
         for (int j = 0; j < _items.size(); ++j) {
           if (getButtonIdx(j) == i) {
-            _carrier->Buzzer.beep();
 
             // Clear all LEDs except the one pressed
             for (int k = 0; k <= 4; ++k) {
